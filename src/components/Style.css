@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color:rgba(0, 0, 0, 0.466) !important;
+    font-size: large;
+}
+
+.betta-1 {
+    height: 200px;
+    border-radius: 15px;
+    float: left;
+}
+
+
+#betta-2 {
+    height: 300px;
+}
+
+.empty-aquarium {
+    height: 400px;
+    margin: auto;
+}
+
+.king-betta {
+    height: 400px;
+    margin: auto;
+}
+
+.aquarium {
+    height: 400px;
+    margin: auto;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.site-footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.accordion {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
