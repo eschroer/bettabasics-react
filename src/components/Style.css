@@ -1,7 +1,7 @@
-body {
+#root {
     font-family: 'Open Sans Condensed', sans-serif;
-    background-color:rgba(0, 0, 0, 0.466) !important;
     font-size: large;
+    background-color:rgba(0, 0, 0, 0.466);
 }
 
 .betta-1 {
