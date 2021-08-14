@@ -4,6 +4,11 @@
     background-color:rgba(0, 0, 0, 0.466);
 }
 
+h1 {
+    padding-top: 140px;
+    margin-left: 225px;
+}
+
 .betta-1 {
     height: 200px;
     border-radius: 15px;

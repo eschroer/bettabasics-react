@@ -51,6 +51,7 @@ function CarouselComponent () {
 
   const slides = items.map((item) => {
     return (
+      
       <CarouselItem
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
@@ -59,10 +60,13 @@ function CarouselComponent () {
         <img src={item.src} alt={item.altText} className={item.className} />
         <CarouselCaption className='carousel-caption' captionText={item.caption} captionHeader={item.altText} />
       </CarouselItem>
+      
     );
   });
 
   return (
+    <>
+    <h2 className="card-header text-center text-white">Setting Up Your First Aquarium</h2>
     <Carousel
       activeIndex={activeIndex}
       next={next}
@@ -73,6 +77,7 @@ function CarouselComponent () {
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
+    </>
   );
 }
 

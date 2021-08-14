@@ -1,8 +1,8 @@
 import React from 'react'
-import { NavItem, Button } from 'reactstrap';
+import { NavItem } from 'reactstrap';
 import {NavLink } from 'react-router-dom'
 
-function Footer() {
+function Footer(props) {
     return (
     <>
     <footer className="site-footer">
@@ -22,9 +22,6 @@ function Footer() {
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/faq"><i className="fa fa-question-circle fa-lg"></i> FAQ</NavLink>
-                    </NavItem>
-                    <NavItem> 
-                        <Button className="nav-link"><i className="fa fa-info fa-lg"></i> Ask a Betta Care Question</Button>
                     </NavItem>
                     </ul>
                 </div>

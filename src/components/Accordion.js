@@ -17,8 +17,40 @@ function AccordionComponent() {
                         Tank Size
                 </Accordion.Header>
                 <Accordion.Body>
-                    <div className="col-md-6">
+                    <div className="col">
                         <p>Betta fish require a tank of at least 2.5 gallons at the very minimum. A tank size of at least 5 gallons is preferred, and the bigger the better!</p>
+                    </div>
+                </Accordion.Body>
+                <Accordion.Header>
+                        Filter and Heater
+                </Accordion.Header>
+                <Accordion.Body>
+                    <div className="col">
+                        <p>Betta fish tanks require an appropriately sized filter and heater. The heater keeps the water at a consistent temperature and the filter harbors beneficial bacteria that allows the aquarium to cycle.</p>
+                    </div>
+                </Accordion.Body>
+                <Accordion.Header>
+                        Temperature
+                </Accordion.Header>
+                <Accordion.Body>
+                    <div className="col">
+                        <p>Water temperature matters! Betta fish should be kept at temperatures between 77-82 degrees.</p>
+                    </div>
+                </Accordion.Body>
+                <Accordion.Header>
+                Water Conditioner
+                </Accordion.Header>
+                <Accordion.Body>
+                    <div className="col">
+                        <p>Use a water conditioner to dechlorinate your tap water or use bottled spring water.</p>
+                    </div>
+                </Accordion.Body>
+                <Accordion.Header>
+                Feeding
+                </Accordion.Header>
+                <Accordion.Body>
+                    <div className="col">
+                        <p>Feed your betta 5-6 pellets of betta-specific food every day.</p>
                     </div>
                 </Accordion.Body>
            </Accordion> 
